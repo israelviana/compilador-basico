@@ -1,0 +1,16 @@
+int x = 5;
+float y = 3.14;
+
+int soma(int a, int b) {
+    return a + b;
+}
+
+if (x > 10) {
+    y = y + 1;
+} else {
+    while (y < 20) {
+        y = y + 2;
+    }
+}
+
+soma(3, 5);
